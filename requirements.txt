@@ -1,0 +1,11 @@
+# Home Automation System - DTMF Digital Control
+# Python dependencies
+#
+# This project uses only the Python standard library.
+# No third-party packages are required to run the simulation.
+#
+# To run tests:
+#   pip install pytest
+#   python -m pytest tests/
+
+pytest>=7.0.0
