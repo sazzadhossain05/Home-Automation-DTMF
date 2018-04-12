@@ -1,0 +1,17 @@
+Component,Quantity,Purpose,Notes
+MT8870 DTMF Decoder IC,1,Decodes DTMF telephone tone to 4-bit binary output,Main decoder IC
+ULN2003 Darlington Transistor Array,1,Drives relay coils from logic-level signals,7-channel NPN array 500mA 50V
+5V Relay,3,Switches loads ON/OFF (Light / Fan / TV),One relay per load
+7805 Voltage Regulator,1,Provides stable 5V from 9V battery,Linear regulator
+3.57 MHz Crystal Oscillator,1,Clock reference for MT8870 decoding,Connected via 22pF capacitors to OSC pins
+9V Battery,2,Power supply,One for logic circuit one for relay circuit
+LED,3,Visual indicator per relay channel,One per Q2/Q3/Q4 output line
+100K Ohm Resistor,2,Input signal conditioning,
+330K Ohm Resistor,1,Signal conditioning,
+1K Ohm Resistor,6,LED current limiting resistors,
+0.1 uF Capacitor,2,Decoupling capacitor,
+22 pF Capacitor,2,Crystal oscillator load capacitors,Grounded at each side of crystal
+AUX Wire (3.5mm),1,Carries DTMF audio signal from phone to circuit input,
+Breadboard,2,Prototyping base,
+Terminal Block (PVT),4,Screw terminals connecting relay outputs to load appliances,
+Connecting Wires,As needed,Jumper wires for breadboard connections,
